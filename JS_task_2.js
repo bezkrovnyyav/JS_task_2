@@ -40,4 +40,8 @@ const abbrevForm = (text) => {
   };
   console.log(abbrevForm("Andrii done task_3 for test for AQA Camp"));
 
+  // 4. Write a JavaScript function that accept two integers and display the larger.
+
+const largeNumbet = (x, y) => x > y ? `The number ${x} is larger than ${y}` : `The numbet ${y} is larger than ${x}`;
+console.log(largeNumbet(22, 33));
 
