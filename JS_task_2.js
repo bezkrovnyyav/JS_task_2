@@ -40,8 +40,19 @@ const abbrevForm = (text) => {
   };
   console.log(abbrevForm("Andrii done task_3 for test for AQA Camp"));
 
-  // 4. Write a JavaScript function that accept two integers and display the larger.
+// 4. Write a JavaScript function that accept two integers and display the larger.
 
 const largeNumbet = (x, y) => x > y ? `The number ${x} is larger than ${y}` : `The numbet ${y} is larger than ${x}`;
 console.log(largeNumbet(22, 33));
+
+// 5. Write a JavaScript function with conditional statement to sort three numbers
+
+const sortThreeNmbrs = (num1, num2, num3) => {
+    let nums = [num1, num2, num3];
+    nums.sort((x, y) => {
+        return x - y;
+    }); 
+    return nums;
+}
+console.log("The numbers are sorted: " + sortThreeNmbrs(77, 45, 22));
 
