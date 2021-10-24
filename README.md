@@ -1,1 +1,1 @@
-# -JS_task_2
+# JS_task_2
